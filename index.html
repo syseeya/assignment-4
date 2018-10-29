@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Index Page</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="my_script.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+
+<script>
+$(document).ready(function(){
+
+  $("button#hide_h2").on('click',function(){
+     $("h2").hide(500);
+  });
+
+  $("button#show_h2").on('click',function(){
+     $("h2").show(300);
+     $("h2").css("color","brown");
+     $("h2").html("You clicked me.");
+
+  });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="Number Game.html">Number Game</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Main content -->
+<h1>Siying Tang</h1>
+<h2>Movie Recommendation of this week</h2>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrDV7wq746vjbWm6?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<p>Leading Cast Members
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrDoFyHJKyScf68S?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<!-- Sign and date the page, it's only polite! -->
+
+</body>
+</html>
